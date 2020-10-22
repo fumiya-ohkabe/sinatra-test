@@ -1,0 +1,21 @@
+. PJ root
+│
+├── Gemfile
+├── Gemfile.lock
+├── config
+│   └── puma.rb
+├── config.ru
+├── log
+│   ├── development.log
+│   └── production.log
+├── tmp
+│   └── puma
+│       └── state
+│       └── pid
+└── app.rb
+
+/
+└── etc
+    └── nginx
+        └── conf.d
+            └──http.conf
