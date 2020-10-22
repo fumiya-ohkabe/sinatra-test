@@ -19,3 +19,9 @@
     └── nginx
         └── conf.d
             └──http.conf
+
+server {
+  location / {
+    proxy_pass http://localhost:4567;
+  }
+}
